@@ -14,14 +14,14 @@
       <!-- :style="{height: `${(375/artwork.width*artwork.height).toFixed(2)}px`}" -->
       <img
         v-if="lazy"
-        v-lazy="url.l"
+        v-lazy="url.o"
         :alt="`${artwork.title} - Page ${index+1}`"
         class="image"
         @click.stop="view(index, isCensored(artwork))"
       />
       <img
         v-else
-        :src="url.l"
+        :src="url.o"
         :alt="`${artwork.title} - Page ${index+1}`"
         class="image"
         :style="{width: displayWidth, height: ((artwork.width / displayWidth) * artwork.height) * (artwork.width / artwork.height)}"
