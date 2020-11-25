@@ -46,6 +46,7 @@ export default {
   height: 160px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(#fff, 0));
   z-index: 99;
+  display: none;
 }
 
 .top-bar {

@@ -18,7 +18,7 @@ export default {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 750px;
+  // max-width: 750px;
   margin: 0 auto;
 }
 </style>
